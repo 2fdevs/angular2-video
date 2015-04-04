@@ -22,6 +22,9 @@ export class VideogularPlayer {
     playPause() {
         this.isPlaying = !this.isPlaying;
 
+        // We can't access this file in Chrome debug tools, we need to debug with debugger statements here
+        // debugger;
+
         if (this.isPlaying) this.element.play();
         else this.element.pause();
     }
