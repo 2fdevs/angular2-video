@@ -12,7 +12,7 @@ import {Component, Template, For} from 'angular2/angular2';
 })
 export class VideogularPlayer {
     src:String;
-    isPlaying:Boolean = false;
+    isPlaying:boolean = false;
     element:HTMLElement;
 
     constructor() {

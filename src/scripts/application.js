@@ -9,7 +9,7 @@ import {VideogularPlayer} from 'scripts/com/2fdevs/videogular/core/vg-player';
     directives: [VideogularPlayer]
 })
 export class Application {
-    source: Array;
+    source: array;
 
     constructor() {
         this.source = [
