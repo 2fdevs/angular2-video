@@ -1,0 +1,5 @@
+<style>@import 'styles/videogular.css';</style>
+
+<video (click)="playPause()" controls>
+    <source template="for #video of src" [src]="video.src" [type]="video.type">
+</video>
